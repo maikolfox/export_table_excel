@@ -1,0 +1,38 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+#title {
+  text-align: center;
+  font-family: arial, sans-serif;
+}
+
+#etatFnc {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 4px solid black;
+  width: 100%;
+}
+#etatFnc td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#etatFnc th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#etatFnc td {
+  word-break: break-all;
+}
+#etatFnc {
+  overflow-x: 101%;
+}
+
+#etatFnc th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #d9531e;
+  color: black;
+}
